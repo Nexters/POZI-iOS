@@ -12,6 +12,7 @@
 		D1085EDB28828268009B7013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1085EDA28828268009B7013 /* ContentView.swift */; };
 		D1085EDD28828269009B7013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1085EDC28828269009B7013 /* Assets.xcassets */; };
 		D1085EE028828269009B7013 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1085EDF28828269009B7013 /* Preview Assets.xcassets */; };
+		D1085EE92882982F009B7013 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1085EE82882982F009B7013 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D1085EDC28828269009B7013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1085EDF28828269009B7013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1085EE628828722009B7013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D1085EE82882982F009B7013 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		D1085ED728828268009B7013 /* Pozi */ = {
 			isa = PBXGroup;
 			children = (
+				D1085EE728829817009B7013 /* MapView */,
 				D1085EE628828722009B7013 /* Info.plist */,
 				D1085ED828828268009B7013 /* PoziApp.swift */,
 				D1085EDA28828268009B7013 /* ContentView.swift */,
@@ -91,6 +94,14 @@
 				D1085EDF28828269009B7013 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1085EE728829817009B7013 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				D1085EE82882982F009B7013 /* MapView.swift */,
+			);
+			path = MapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1085EDB28828268009B7013 /* ContentView.swift in Sources */,
+				D1085EE92882982F009B7013 /* MapView.swift in Sources */,
 				D1085ED928828268009B7013 /* PoziApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

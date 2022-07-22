@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MapView(coord: (33.361425, 126.529418))
+        MapView(coord: (127.0495556, 37.514575))
     }
 }
 

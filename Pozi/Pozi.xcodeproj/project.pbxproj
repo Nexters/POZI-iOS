@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440C1332288837DB0056B69E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 440C1331288837DB0056B69E /* GoogleService-Info.plist */; };
+		440C1335288837F30056B69E /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C1334288837F30056B69E /* MapViewModel.swift */; };
+		440C13382888380E0056B69E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C13372888380E0056B69E /* Location.swift */; };
+		440C133B2888382B0056B69E /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C133A2888382B0056B69E /* TestView.swift */; };
 		ADE36F646E413F7529E862B8 /* Pods_Pozi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9E1A8EC1A65B830FCF235E /* Pods_Pozi.framework */; };
 		D1085ED928828268009B7013 /* PoziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1085ED828828268009B7013 /* PoziApp.swift */; };
 		D1085EDB28828268009B7013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1085EDA28828268009B7013 /* ContentView.swift */; };
@@ -18,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		334A275984259D5FDCBF735A /* Pods-Pozi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pozi.release.xcconfig"; path = "Target Support Files/Pods-Pozi/Pods-Pozi.release.xcconfig"; sourceTree = "<group>"; };
+		440C1331288837DB0056B69E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		440C1334288837F30056B69E /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		440C13372888380E0056B69E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		440C133A2888382B0056B69E /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		74B360169B49D684F5813172 /* Pods-Pozi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pozi.debug.xcconfig"; path = "Target Support Files/Pods-Pozi/Pods-Pozi.debug.xcconfig"; sourceTree = "<group>"; };
 		AE9E1A8EC1A65B830FCF235E /* Pods_Pozi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pozi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1085ED528828268009B7013 /* Pozi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pozi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,7 +33,7 @@
 		D1085EDA28828268009B7013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1085EDC28828269009B7013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1085EDF28828269009B7013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D1085EE628828722009B7013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D1085EE628828722009B7013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1085EE82882982F009B7013 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D1FFCDEF2882B70C0077F614 /* BottomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +50,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		440C1330288837D20056B69E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D1085ED828828268009B7013 /* PoziApp.swift */,
+				440C1331288837DB0056B69E /* GoogleService-Info.plist */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		440C1333288837E00056B69E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				440C1334288837F30056B69E /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		440C1336288838050056B69E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				440C13372888380E0056B69E /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		440C1339288838230056B69E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1085EE728829817009B7013 /* MapView */,
+				D1085EDA28828268009B7013 /* ContentView.swift */,
+				440C133A2888382B0056B69E /* TestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		57AA508CE218E1671A8CAAA4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,11 +123,12 @@
 		D1085ED728828268009B7013 /* Pozi */ = {
 			isa = PBXGroup;
 			children = (
-				D1FFCDEE2882B6ED0077F614 /* BottomListView */,
-				D1085EE728829817009B7013 /* MapView */,
 				D1085EE628828722009B7013 /* Info.plist */,
-				D1085ED828828268009B7013 /* PoziApp.swift */,
-				D1085EDA28828268009B7013 /* ContentView.swift */,
+				440C1339288838230056B69E /* Views */,
+				440C1336288838050056B69E /* Models */,
+				440C1333288837E00056B69E /* ViewModels */,
+				440C1330288837D20056B69E /* Utils */,
+				D1FFCDEE2882B6ED0077F614 /* BottomListView */,
 				D1085EDC28828269009B7013 /* Assets.xcassets */,
 				D1085EDE28828269009B7013 /* Preview Content */,
 			);
@@ -177,6 +221,7 @@
 			files = (
 				D1085EE028828269009B7013 /* Preview Assets.xcassets in Resources */,
 				D1085EDD28828269009B7013 /* Assets.xcassets in Resources */,
+				440C1332288837DB0056B69E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440C133B2888382B0056B69E /* TestView.swift in Sources */,
+				440C13382888380E0056B69E /* Location.swift in Sources */,
 				D1085EDB28828268009B7013 /* ContentView.swift in Sources */,
+				440C1335288837F30056B69E /* MapViewModel.swift in Sources */,
 				D1085EE92882982F009B7013 /* MapView.swift in Sources */,
 				D1085ED928828268009B7013 /* PoziApp.swift in Sources */,
 				D1FFCDF02882B70C0077F614 /* BottomListView.swift in Sources */,
@@ -362,7 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pozi/Preview Content\"";
-				DEVELOPMENT_TEAM = 6D8SYQ63KK;
+				DEVELOPMENT_TEAM = 385Y9B45N8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pozi/Info.plist;
@@ -372,6 +420,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,7 +430,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -394,7 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pozi/Preview Content\"";
-				DEVELOPMENT_TEAM = 6D8SYQ63KK;
+				DEVELOPMENT_TEAM = 385Y9B45N8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pozi/Info.plist;
@@ -404,6 +453,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,7 +463,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

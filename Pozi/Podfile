@@ -6,7 +6,8 @@ target 'Pozi' do
   use_frameworks!
 
   # Pods for Pozi
-  
+  pod 'Firebase'
+  pod 'FirebaseFirestore'  
   pod 'NMapsMap'
 
 end

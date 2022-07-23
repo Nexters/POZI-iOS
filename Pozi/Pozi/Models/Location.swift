@@ -1,5 +1,5 @@
 //
-//  Locations.swift
+//  Location.swift
 //  Pozi
 //
 //  Created by suding on 2022/07/20.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Locations: Identifiable {
+struct Location: Identifiable {
     var id: String
     var address: String
     var brand: String

@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-import Firebase
-
 struct TestView: View {
     @ObservedObject var mapViewModel = MapViewModel()
     
@@ -23,7 +21,7 @@ struct TestView: View {
     }
     
     init() {
-        mapViewModel.getData()
+        mapViewModel.fetchData()
     }
 }
 
